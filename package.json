@@ -4,6 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
+    "start": "npx webpack --config=./webpack.config.js",
     "watch": "npx webpack --watch --config=./webpack.config.js"
   },
   "dependencies": {
